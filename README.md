@@ -19,6 +19,7 @@ Important concepts to learn in JS are:
 * arrays
 * loops
 * functions
+* *events
 
 ## D3.js
 D3.js is the most popular JS library for data visualization on web. In the tutorial, I will teach how to create visualization using D3 and publish them online. Useful concepts to learn in D3 are:
