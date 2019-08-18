@@ -1,6 +1,6 @@
 # Data Visualization Course Tutorial
 
-In this tutorial I will be covering HTML, JS and D3.js specifically for creating data visualization.
+In this tutorial I will be covering HTML, JS and D3.js for creating data visualization.
 
 ## HTML
 HTML is the popular language to create websites. 
