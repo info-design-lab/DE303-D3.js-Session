@@ -1,8 +1,9 @@
-# Data Visualization Course D3 Tutorial
+# Data Visualization Course Tutorial
 
-
+In this tutorial I will be covering HTML, JS and D3.js specifically for creating data visualization.
 
 ## HTML
+HTML is the popular language to create websites. 
 
 Important concepts to learn in HTML are:
 * Tags (`<html>`, `<body>`, `<head>`, etc)
@@ -11,6 +12,8 @@ Important concepts to learn in HTML are:
 * *IDs
 
 ## JavaScript(JS)
+HTML alone can only create static websites. Hence, JS is used to augment webpages. JS is the scripting language for websites. JS can be used for many purposes - connecting to website server backend, handle user interaction on the webpage, etc. There are many functionalities we can add to our website by using JS libraries (like [D3.js](https://d3js.org), [Three.js](https://threejs.org), [p5.js](https://p5js.org)). 
+
 Important concepts to learn in JS are:
 * variables
 * arrays
@@ -18,11 +21,15 @@ Important concepts to learn in JS are:
 * functions
 
 ## D3.js
-Basic concepts to learn in D3 are:
+D3.js is the most popular JS library for data visualization on web. In the tutorial, I will teach how to create visualization using D3 and publish them online. Useful concepts to learn in D3 are:
+* Append SVG to HTML elements
 * D3 Primitives
 * Interactions
 * Transitions
+* .enter(data)
+* Importing data files
 * *Maps
+* *Path
 
 ### Resources
 * [D3.js Gallery](https://github.com/d3/d3/wiki/gallery)
