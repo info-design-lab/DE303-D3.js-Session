@@ -1,7 +1,7 @@
 # Data Visualization Course Tutorial
 
 ## HTML
-HTML is the popular language to create websites. 
+HTML is the most popular language to create websites. 
 
 Important concepts to learn in HTML are:
 * Tags (`<html>`, `<body>`, `<head>`, etc)
