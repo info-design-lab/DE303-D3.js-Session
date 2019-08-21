@@ -43,4 +43,4 @@ D3.js is the most popular JS library for data visualization on web. In the tutor
 * Hosting your project online on Github domain: [Youtube Video]()
 
 
-\* : Won't be covered in class but are useful.
+\* - Won't be covered in class but are useful.
