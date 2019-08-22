@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Functions</title>
+	</head>
+	<body>
+		
+	<script>	
+	// Functions are used when you want to perform the same task
+	// multiple times
+
+	// For example consider the array1
+	var array1 = [1, 2, 3, 4];
+	// Now, if we want to find the sum of numbers of the array
+	// we would write the following code
+	var sum1 = 0; // sum of array1
+	for(var i in array1){
+		sum1 = sum1 + array1[i];
+	}
+
+	// Now if you have another array (array2)
+	var array2 = [11, 12, 13, 14];
+	// to find the sum of array2, you need to write the earlier code again
+	var sum2 = 0; // sum of array1
+	for(var i in array2){
+		sum2 = sum2 + array2[i];
+	}
+
+
+
+
+
+
+
+
+
+	// To simplify our work of finding the sum of array, we
+	// can use functions. 
+	function sum(array){
+		var sum = 0;
+		for(var i in array){
+			sum = sum + array[i];
+		}
+		return sum;
+	}
+
+
+	var sum1 = sum(array1);
+	var sum2 = sum(array2);
+
+	// console.log(sum1);
+	// console.log(sum2);
+	</script>
+	</body>
+</html>

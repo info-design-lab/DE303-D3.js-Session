@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Loops</title> 
+	</head>
+	<body>
+		
+	<script>	
+	// Loops are useful in accessing each element of an array 
+	var array = [1, 2, 3, 4, 5];
+
+	for(var i = 0; i < array.length; i++){
+		// console.log(i);
+		// console.log(array[i]);
+	}
+
+	// same functionality can be achieved through the following syntax
+	for(var i in array){ // This syntax automatically return the index of every element
+		// console.log(i);
+		// console.log(array[i]);
+	}
+
+	var json = {
+		"x": 100,
+		"y": 100
+	}
+
+	for(var i in json){ // This syntax automatically return the attributes of the json
+		// console.log(i);
+		// console.log(json[i]);
+	}
+	</script>
+	</body>
+</html>
