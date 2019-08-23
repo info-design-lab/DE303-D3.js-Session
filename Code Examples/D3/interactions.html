@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Interactions</title>
+
+		<!--Scripts-->
+	   	<script src="scripts/d3.v4.js"></script>
+ 	</head>
+	<body>
+		<script>
+			var width = 500; // width of the svg
+			var height = 500; // height of the svg
+
+			var svg = d3.select("body").append('svg')
+				.attr("width", width)
+				.attr("height", height);
+
+			var rect = svg.append("rect")
+				.attr("x", 50)
+				.attr('y', 50)
+				.attr("width", 100)
+				.attr("height", 100)
+				.attr('fill', "red")
+				.on("mouseover", function(){ // hover events
+					console.log("mouseover");
+				})
+				.on("mouseout", function(){
+					console.log("mouseout");
+				})
+				.on("mousedown", function(){ // click 
+					console.log("mousedown");
+				})
+				.on("mouseup", function(){
+					console.log("mouseup");
+				})
+				.on("click", function(){
+					console.log("click");
+				})
+
+		</script>
+	</body>
+</html>

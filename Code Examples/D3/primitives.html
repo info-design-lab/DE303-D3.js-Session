@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Primitives</title>
+
+		<!--Scripts-->
+	   	<script src="scripts/d3.v4.js"></script>
+ 	</head>
+	<body>
+		<script>
+			var width = 500; // width of the svg
+			var height = 500; // height of the svg
+
+			var svg = d3.select("body").append('svg')
+				.attr("width", width)
+				.attr("height", height);
+
+			var rect = svg.append("rect")
+				.attr("x", 50)
+				.attr('y', 50)
+				.attr("width", 100)
+				.attr("height", 100)
+				.attr('fill', "red");
+
+			/*
+			var circle = svg.append("circle")
+				.attr("cx", 100)
+				.attr('cy', 250)
+				.attr("r", 50)
+				.attr("fill", "black");
+			*/
+
+			/*
+			var line = svg.append("line")
+				.attr("x1", 350)
+				.attr("x2", 450)
+				.attr("y1", 50)
+				.attr("y2", 150)
+				.attr("stroke", "#d3d3d3")
+				.attr("stroke-width", 20);
+			*/
+
+			/*
+			var path = svg.append("path")
+				.attr("d", "M170,90 L210,80 Q240,150 270,80 L300,90 Z")
+				.style("stroke", "orange")
+				.style("fill", "blue");
+			*/
+		</script>
+	</body>
+</html>
